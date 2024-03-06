@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" );
+
+body{
+    background-color: bisque;
+}
+
+.heading {
+    text-align: center;
+   font-size: 2rem;
+   font-family:"Dancing Script", cursive; 
+   color: rgb(255, 0, 55);
+  
+}
+
+#playground-heading{
+    position: relative;
+    top: 0px;
+    animation: coming-in 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes comin-in {
+    100% {top: 0;}
+}
+
+
+.Ingredients{
+    text-align: left;
+    color: brown;
+
+}
+
+#Ingredients-animation{
+       
+    animation: Ingredients-animation 5s ease-in-out;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ingredients-animation {
+    100% { opacity: 1;}
+}
+
+
+
+.ordered-list{
+    border: 1px black;
+}
+
+.unordered-list{
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.instructions{
+    color: brown;
+}
+
+#instructions-animation{
+        
+    animation: Ingredients-animation 5s ease-in-out;
+    opacity: 0;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Ingredients-animation {
+    100% { opacity: 1;}
+}
+
+
+
+
+.footer{
+    text-align: center;
+    
+}
+
+#footer-animation{
+    animation: footer-animation 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+    transform: rotateX(180deg);
+    }
+
+@keyframes footer-animation {
+    50% { transform: rotate(180deg)}
+}
+
+
+    
